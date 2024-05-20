@@ -7,7 +7,7 @@ public class Main {
         try{
 
             sakila_conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila",
-                    "root", "8835151076");
+                    "root", "");
         }
         catch(SQLException e){
             System.out.println("Cannot connect to database: "
